@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "USB_Power_Injector")(type "KiCad")(uri "${KIPRJMOD}/USB_Power_Injector.pretty")(options "")(descr ""))
+)
