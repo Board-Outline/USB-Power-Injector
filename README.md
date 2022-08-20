@@ -2,7 +2,7 @@
 
 The USB Power Injector allows a convenient way to power up USB 2.0 devices from a lab power supply, while still allowing data transfer from the device to the host. 
 
-#The problem
+## The problem
 
 When powering devices from a standard USB 2.0 port, either from a PC or from a standard USB hub, you never have the niceties that an adjustable lab style power supply has. 
 During development that means you can’t set precise voltage and current limits. In the best case scenario, that means you can’t test under/over voltage protections. 
