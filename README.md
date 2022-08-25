@@ -13,6 +13,8 @@ That can cause confusion and loss of time for a hardware engineer during develop
 
 # License
 
+![Alt text](Licence_Facts.svg "Title")
+
 The project is released under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Note: This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
