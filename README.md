@@ -13,7 +13,7 @@ That can cause confusion and loss of time for a hardware engineer during develop
 
 # License
 
-![Alt text](Licence_Facts.svg "Title")
+![](Licence_Facts.svg "Licences")
 
 The project is released under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
