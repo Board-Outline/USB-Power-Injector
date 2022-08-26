@@ -14,8 +14,6 @@ That can cause confusion and loss of time for a hardware engineer during develop
 
 The USB Power Injector is officially certified by the Open Source Hardware Association, with certificate number BG000082.
 
-![](oshwa_cert.svg "OSHWA Certificate") 
-
 <p align="center">
   <img src="oshwa_cert.svg" />
 </p>
@@ -25,8 +23,6 @@ The USB Power Injector is officially certified by the Open Source Hardware Assoc
 <p align="center">
   <img src="Licence_Facts.svg" />
 </p>
-
-![](Licence_Facts.svg "Licences")
 
 The project is released under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
