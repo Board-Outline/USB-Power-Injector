@@ -10,6 +10,11 @@ In the worst case, you run excessive current trough your device and you don’t 
 USB hubs tend to have overcurrent protection, but most don’t send the overcurrent event to the operating system. 
 That can cause confusion and loss of time for a hardware engineer during development or to testing personnel during production.  
 
+#Open Source Certified
+
+The USB Power Injector is officially certified by the Open Source Hardware Association, with certificate number BG000082.
+
+![](oshwa_cert.svg "OSHWA Certificate") 
 
 # License
 
