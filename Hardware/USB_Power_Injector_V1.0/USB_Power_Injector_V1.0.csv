@@ -1,0 +1,23 @@
+"Source:","D:\Board Outline\Repos\USB-Power-Injector\Hardware\USB_Power_Injector_V1.0\USB_Power_Injector_V1.0.kicad_sch"
+"Date:","24-Sep-22 11:29:36"
+"Tool:","Eeschema (6.0.6)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","4"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Manufacturer","Manufacturer Part Number"
+"","","J1","Red Banana Jack","Connector:Conn_01x01_Female","USB_Power_Injector:4mm_Banana_Jack_Red_Deltron_571-0500","~","Deltron","571-0500 "
+"","","J2","Black Banana Jack","Connector:Conn_01x01_Female","USB_Power_Injector:4mm_Banana_Jack_Black_Deltron_571-0100","~","Deltron","571-0100 "
+"","","J3","USB_B","Connector:USB_B","USB_Power_Injector:USB_B_OST_USB-B1HSxx_Horizontal"," ~","CUI Devices","UJ2-BH-1-TH"
+"","","J4","USB_A","Connector:USB_A","USB_Power_Injector:USB_A_CONNFLY_DS1095-WNR0"," ~","Stewart Connector / Bel","SS-52100-001"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Manufacturer","Manufacturer Part Number"
+"1","1","J1","Red Banana Jack","Connector:Conn_01x01_Female","USB_Power_Injector:4mm_Banana_Jack_Red_Deltron_571-0500","~","Deltron","571-0500 "
+"2","1","J2","Black Banana Jack","Connector:Conn_01x01_Female","USB_Power_Injector:4mm_Banana_Jack_Black_Deltron_571-0100","~","Deltron","571-0100 "
+"3","1","J3","USB_B","Connector:USB_B","USB_Power_Injector:USB_B_OST_USB-B1HSxx_Horizontal"," ~","CUI Devices","UJ2-BH-1-TH"
+"4","1","J4","USB_A","Connector:USB_A","USB_Power_Injector:USB_A_CONNFLY_DS1095-WNR0"," ~","Stewart Connector / Bel","SS-52100-001"
