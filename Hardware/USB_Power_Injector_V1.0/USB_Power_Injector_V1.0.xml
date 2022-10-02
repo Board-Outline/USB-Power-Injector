@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Board Outline\Repos\USB-Power-Injector\Hardware\USB_Power_Injector_V1.0\USB_Power_Injector_V1.0.kicad_sch</source>
+    <date>02-Oct-22 17:32:15</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB Power Injector</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2022-07-30</date>
+        <source>USB_Power_Injector_V1.0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Red Banana Jack</value>
+      <footprint>USB_Power_Injector:4mm_Banana_Jack_Red_Deltron_571-0500</footprint>
+      <fields>
+        <field name="Manufacturer">Deltron</field>
+        <field name="Manufacturer Part Number">571-0500 </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer Part Number" value="571-0500 "/>
+      <property name="Manufacturer" value="Deltron"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_Power_Injector_V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96a97dd9-ac8b-45dc-9bf0-8ec4c3c397d4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Black Banana Jack</value>
+      <footprint>USB_Power_Injector:4mm_Banana_Jack_Black_Deltron_571-0100</footprint>
+      <fields>
+        <field name="Manufacturer">Deltron</field>
+        <field name="Manufacturer Part Number">571-0100 </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer Part Number" value="571-0100 "/>
+      <property name="Manufacturer" value="Deltron"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_Power_Injector_V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f09497d8-740a-455b-afff-49c415336bab</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B</value>
+      <footprint>USB_Power_Injector:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Manufacturer Part Number">UJ2-BH-1-TH</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="Manufacturer Part Number" value="UJ2-BH-1-TH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_Power_Injector_V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51457678-592e-4bb3-a978-870500b37481</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB_A</value>
+      <footprint>USB_Power_Injector:USB_A_CONNFLY_DS1095-WNR0</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stewart Connector / Bel</field>
+        <field name="Manufacturer Part Number">SS-52100-001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Manufacturer" value="Stewart Connector / Bel"/>
+      <property name="Manufacturer Part Number" value="SS-52100-001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_Power_Injector_V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c281fbb6-244f-4849-95e5-6f0177ad1d5e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/D_N">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/D_P">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/USB_POWER">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="5" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+  </nets>
+</export>
