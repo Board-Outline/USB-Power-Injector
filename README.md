@@ -18,6 +18,8 @@ The USB Power Injector is officially certified by the Open Source Hardware Assoc
   <img src="oshwa_cert.svg" />
 </p>
 
+The project was made using KiCad.
+
 # License
 
 <p align="center">
